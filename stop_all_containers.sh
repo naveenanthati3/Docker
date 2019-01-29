@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #to stop all running containers
