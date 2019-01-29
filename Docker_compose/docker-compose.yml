@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  tomcat1:
+    image: tomcat:latest
+    ports:
+      - 1002:80
+      - 1003:8080
+      - 1013:8080
+  tomcat2:
+    image: tomcat:latest
+    ports:
+      - 1004:8080
+      - 1005:8080
+    environment:
+      TEST_ENV_VAR: test1234
+
