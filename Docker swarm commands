@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# to initialize the swarm and to add ip
+
+docker swarm init --advertise-addr 192.168.99.100
+
+# to create the docker-machine where domain has to be configured at /etc/hosts
+docker-machine create "domain name"
