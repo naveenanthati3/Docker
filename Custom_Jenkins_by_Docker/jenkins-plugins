@@ -1,0 +1,13 @@
+workflow-aggregator
+git
+ssh
+ssh-agent
+docker-plugin
+dockerhub-notification
+oauth-credentials:0.4
+
+#GHPRB
+ghprb:::https://updates.jenkins.io/download/plugins/ghprb/1.42.1/ghprb.hpi
+
+#GROOVY
+groovy:::https://updates.jenkins.io/download/plugins/groovy/2.3/groovy.hpi
